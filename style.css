@@ -6,17 +6,29 @@
 }
 
 body {
-    background-color: #0d2c30;
-    color: #193d42;
+    background-color: rgb(15, 26, 31);
+    color: rgb(80, 210, 193);
     font-family: monospace;
     line-height: 1.6;
     padding: 4% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-style {
+    text-decoration: none !important;
 }
 
 .body {
-    outline: #6fbdc9;
+    outline: rgb(80, 210, 193);
     outline-style: solid;
     outline-width: 0.5%;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 2% 2%;
+    text-align: center;
 }
 
 header {
@@ -26,26 +38,28 @@ header {
     padding-top: 2%;
     padding-bottom: 1%;
     font-size: 3rem;
-    color: #487f87;
+    color: #45ddde;
 }
-  
-  
+
+
 h1 {
-    text-align: center;
     font-size: 2.5rem;
-    color: #6fbdc9;
 }
 
 h2 {
-    text-align: center;
     font-size: 2rem;
-    color: #6fbdc9;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
 }
 
 p {
-    text-align: center;
     font-size: 1rem;
-    color: #6fbdc9;
 }
 
 main {
@@ -54,8 +68,7 @@ main {
 
 footer {
     text-align: center;
-    padding: 20px 0;
-    background-color: #333; 
+    padding-top: 2%;
 }
 
 section {
@@ -66,10 +79,23 @@ section {
 }
 
 .project {
-    outline: #6fbdc9;
+    outline: rgb(80, 210, 193);
     outline-style: solid;
     outline-width: 0.5%;
-    width: 75%;
+    width: 80%;
     margin: 1% 0;
     padding: 0.5% 0;
+}
+
+.donation-method {
+    outline: rgb(80, 210, 193);
+    outline-style: solid;
+    outline-width: 0.5%;
+    width: 80%;
+    margin: 1% 0;
+    padding: 0.5% 0;
+}
+
+a {
+    color: #3ce6c6;
 }
